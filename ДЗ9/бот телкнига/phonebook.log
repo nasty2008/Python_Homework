@@ -1,0 +1,528 @@
+[27.10.2022 23:11:12 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:12 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:15 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:15 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:18 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:18 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:21 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:21 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:24 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:24 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:27 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:27 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:30 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:30 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:34 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:34 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:37 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:37 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:40 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:40 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:43 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:43 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:46 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:46 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:49 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:49 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:52 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:52 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:56 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:56 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:11:59 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:11:59 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:12:02 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:12:02 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:12:05 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:12:05 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:12:08 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:12:08 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:12:11 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:12:11 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:12:14 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:12:14 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:12:17 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:12:17 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:12:21 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:12:21 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:12:24 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:12:24 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:12:27 ] [ERROR] [__init__] [infinity_polling: 964] => Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+[27.10.2022 23:12:27 ] [ERROR] [__init__] [infinity_polling: 966] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 959, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1044, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1240, in get_me
+    result = apihelper.get_me(self.token)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+[27.10.2022 23:21:58 ] [INFO] [bot] [main: 43] => The user has selected item number 1
+[27.10.2022 23:21:58 ] [ERROR] [__init__] [__threaded_polling: 1087] => Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+[27.10.2022 23:21:58 ] [ERROR] [__init__] [__threaded_polling: 1089] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1078, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 6086, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "c:\Users\User\Desktop\бот\bot.py", line 44, in main
+    bot.send_message(message.chat.id, f'{cr.retrive()}')
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1549, in send_message
+    apihelper.send_message(
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 277, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+
+[27.10.2022 23:23:01 ] [INFO] [bot] [main: 43] => The user has selected item number 1
+[27.10.2022 23:23:08 ] [INFO] [bot] [main: 47] => The user has selected item number 2
+[27.10.2022 23:23:21 ] [INFO] [bot] [find_surname: 86] => User entered: {surname_it}
+[27.10.2022 23:24:17 ] [INFO] [bot] [main: 43] => The user has selected item number 1
+[27.10.2022 23:24:17 ] [ERROR] [__init__] [__threaded_polling: 1087] => Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+[27.10.2022 23:24:17 ] [ERROR] [__init__] [__threaded_polling: 1089] => Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1078, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 6086, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "c:\Users\User\Desktop\бот\bot.py", line 44, in main
+    bot.send_message(message.chat.id, f'{cr.retrive()}')
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\__init__.py", line 1549, in send_message
+    apihelper.send_message(
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 277, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\User\Desktop\бот\folder_env\lib\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+
+[27.10.2022 23:29:57 ] [INFO] [bot] [main: 43] => The user has selected item number 1
+[27.10.2022 23:31:47 ] [INFO] [bot] [main: 47] => The user has selected item number 2
