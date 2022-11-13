@@ -1,7 +1,7 @@
 import telebot
 import random
 
-with open('token.txt','r') as source:
+with open('5474740493:AAGcPzSSpAlGNjHVZlLvgJXL36y7MZ8zOKM','r') as source:
     botToken=source.readline()
 
 bot = telebot.TeleBot(botToken)
