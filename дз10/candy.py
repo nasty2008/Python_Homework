@@ -1,10 +1,7 @@
 import telebot
 import random
 
-with open('5474740493:AAGcPzSSpAlGNjHVZlLvgJXL36y7MZ8zOKM','r') as source:
-    botToken=source.readline()
-
-bot = telebot.TeleBot(botToken)
+bot = telebot.TeleBot('5474740493:AAGcPzSSpAlGNjHVZlLvgJXL36y7MZ8zOKM', parse_mode = None)
 
 candy=2021
 fate = 0
